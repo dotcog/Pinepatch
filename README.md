@@ -67,7 +67,7 @@ public class MainHook {
 
 ### 4. 编译模块
 
-- 编译后，将生成的 DEX 文件重命名为 `dex`。
+- 编译后，将生成的 DEX 文件重命名为 `dex`，只要文件末尾是 `dex` 都会识别为dex文件。
 - 如果有多个 DEX 文件，需**合并**，并删除 DEX 中多余的类（如 `pine_api` 的类），否则 `pine_api` 会导致模块不生效。
 - 最后，将 `dex` 和 `manifest.json` **压缩** 在一起，得到模块安装包。
 
