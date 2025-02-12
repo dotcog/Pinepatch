@@ -91,6 +91,11 @@ Pine.queryContent(context, "com.exampleapp/example_query");
 - 一个模块的包名是 `nea.dpi`。
 - 在管理器中点击该模块时，会自动跳转到 **包名 `nea.dpi`** 的应用的 **`nea.dpi.PiActivity`** 界面。
 
+## 使用Xposed模块
+
+- 在模块仓库中下载[Pine Xposed.apk](http://jkx.dotcog.nhely.hu/d/pinexposed.apk)和[Pine Xposed.zip](http://jkx.dotcog.nhely.hu/d/pinexposed.zip)
+- 将ZIP安装至Pinepatch，APK安装至系统，要使用Xposed模块的应用需要选中Pine Xposed，在管理模块中点击Pine Xposed即可进入Xposed模块作用域
+
 ## 模块开发实例
 
 [GitHub 示例项目](https://github.com/dotcog/dpi_setting)
